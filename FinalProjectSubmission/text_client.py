@@ -11,11 +11,11 @@ os.system('cls||clear')
 
 
 def query_request(query):
-    api_url = 'http://localhost:8000/search/?query=' + query
+    api_url = 'http://18.118.170.215:8000/search/?query=' + query
     return requests.get(api_url)
     
 def chart_query_request(query, Id):
-    api_url = 'http://localhost:8000/search/charts/'+ Id +'/?query='+query
+    api_url = 'http://18.118.170.215:8000/search/charts/'+ Id +'/?query='+query
     return requests.get(api_url)
 
 finished = False
