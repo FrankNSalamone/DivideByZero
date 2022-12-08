@@ -1,6 +1,10 @@
-# Please visit our AWS server at 18.118.170.215:4200.  
+# Please visit our AWS server at 18.118.170.215:4200. 
 
 # If our AWS server at 18.118.170.215 is down, please text Frank Salamone at 585-313-0029 (Not in the middle of the night please :- ) )
+
+# Our dinal documentation is above at Final Documnetation.pdf.
+
+# Our final video is at https://drive.google.com/file/d/1J9Lzsbw8yHp3OLyxDoClyWdETdQ9Iw-9/view?usp=sharing.
 
 # Medical Record Search Engine by DivideByZero
 
@@ -17,6 +21,9 @@ docker-compose up -d
 docker-compose ps
 ```
 Once all containers are up running, replace `./elasticsearch/ca.crt` with the certificate of Elasticsearch service from docker volume to `./elasticsearch`. This can be done through ![Docker Desktop UI](dockerDesktopVolume.png).
+
+### Our dataset charts2.csv can be found at:
+### https://drive.google.com/file/d/1iyS_CTQF1S53CmTD1pYua6-aBR2NRtvv/view?usp=sharing
 
 ### Indexing patient charts
 ```bash
